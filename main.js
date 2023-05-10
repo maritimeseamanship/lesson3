@@ -142,18 +142,18 @@ let users = [
 
 for(let item of users){
     if (item.status){
-        document.write(`<div> Name: ${users.name}, age:${users.age}, status:${users.status}</div>`);
+        document.write(`<div> Name: ${users.name}, age:${users.age}, status:${users.status}.</div>`);
     }
 }
 
 for(let item of users){
     if (!item.status){
-        document.write(`<div> Name: ${users.name}, age:${users.age}, status:${users.status}</div>`);
+        document.write(`<div> Name: ${users.name}, age:${users.age}, status:${users.status}.</div>`);
     }
 }
 
 for(let item of users){
-    if (users.age > 30){
+    if (item.age > 30){
         document.write(`<div> Name: ${users.name}, age:${users.age}, status:${users.status}</div>`);
     }
 }
